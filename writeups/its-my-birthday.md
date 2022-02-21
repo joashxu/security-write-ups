@@ -1,7 +1,5 @@
 # It's my birthday
 
-## Introduction
-
 ## Summary
 
 * MD5 message-digest algorithm is a hash function that produces a 128-bit hash value. 
@@ -34,6 +32,7 @@ I am using the [PDF MD5 collider](https://github.com/corkami/collisions/blob/mas
 ```bash
 $ brew install mupdf
 ```
+
 For the script to work, I made some minor adjustments. The first adjustment I made was to change the `mutool` location. I also updated the code because Python complained about several data type mismatches. The updated script can be found [here](https://gist.github.com/joashxu/57fbc8c63e3f61dc94390f91329d18b7).
 
 I then ran the script with the two PDF files I made in the previous step as arguments.
@@ -53,4 +52,5 @@ I then submitted those two files via the form, and it returned a page with the P
 [picoCTF challenge #109](https://play.picoctf.org/practice/challenge/109)
 
 ## Tags
+
 #web-exploitation
